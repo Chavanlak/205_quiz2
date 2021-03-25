@@ -1,18 +1,30 @@
 #include<stdio.h>
 int main()
 {
-    int i,j,n;
+    int i,j,n,x;
     scanf("%d",&n);
-    if(n>0)
+    for(i=n;i<=n;i++)
     {
-        for(i=1;i<=n;i++)
-            printf("%d\n",i);
+         if(n>0)
+         {
+            x=n*n*n;
+            printf("%d\n",x);
+         }
+         else
+        printf("Not cube free");
     }
 
 
 
 
-   else
-        printf("Not cube free");
+
+
+
+
+
+
+
+
+
 
 }
