@@ -15,6 +15,18 @@
     int main()
     {
         cube_freenumber();
+        int t,y;
+        scanf("%d",&t);
+        for(i=1;i<=t;i++)
+        {
+            scanf("%d",&y);
+            if()
+            {
+
+            }
+            else
+                printf("");
+        }
 
     }
 
