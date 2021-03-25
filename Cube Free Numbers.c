@@ -4,34 +4,36 @@ void cube_freenumber()
 {
 
     int i,j,n,x;
-    for(i=n;i<=n;i++)
+    for(i=2;i<=100;++i)
     {
         if(k[i]==0)
         {
            x=i*i*i;
-           for(j=x;j<=1000000;j+=x)
+           for(j=x;j<=1000001;j+=x)
            k[j]=-1;
         }
     }
         x=1;
-        for(i=1;i<=1000000;i++)
-        if(k[i]=x++)
+        for(i=1;i<=1000001;i++)
+            if(k[i]==0)
+            k[i]=x++;
 }
+
 
 int main()
     {
         cube_freenumber();
-        int i,t,y;
-        scanf("%d",&t);
-        for(i=1;i<=t;i++)
+        int i,n,y;
+        scanf("%d",&n);
+        for(i=n;i<=n;i++)
         {
-            scanf("%d",&y);
-            if(k[y]=-1)
+            //scanf("%d",&y);
+            if(k[n]=!-1)
             {
-                printf("%d",k[y]);
+                printf("%d %d\n",i,k[n]);
             }
             else
-                printf("Not cube free ");
+                printf(" %d Not cube free\n ",i);
         }
         return 0;
     }
